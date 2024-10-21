@@ -1,0 +1,26 @@
+{
+  "name": "sendMail-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node App.js",
+    "dev": "nodemon App.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santudhali10/sendMail-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santudhali10/sendMail-app/issues"
+  },
+  "homepage": "https://github.com/santudhali10/sendMail-app#readme",
+  "dependencies": {
+    "nodemailer": "^6.9.15",
+    "nodemon": "^3.1.7"
+  }
+}
