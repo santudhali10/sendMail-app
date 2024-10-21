@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/santudhali10/sendMail-app#readme",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "nodemailer": "^6.9.15",
     "nodemon": "^3.1.7"
   }
