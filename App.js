@@ -21,7 +21,11 @@ const sendingMail = async () => {
             from: 'santu.d@een.com',
             to: 'santudhali958@gmail.com',
             subject: 'Testing Mail, Ignore Please',
-            html: htmlBody
+            html: htmlBody,
+            attachments: [{
+                filename: 'image1.png',
+                path: './images/image1.png',
+            }]
         });
 
         console.log("Id: ", mailSend.messageId);
